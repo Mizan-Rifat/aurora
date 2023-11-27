@@ -7,10 +7,10 @@ import checker from 'vite-plugin-checker';
 export default defineConfig({
   plugins: [
     tsconfigPaths(),
-    react(),
-    checker({
-      typescript: true
-    })
+    react()
+    // checker({
+    //   typescript: true
+    // })
   ],
   preview: {
     port: 5000
